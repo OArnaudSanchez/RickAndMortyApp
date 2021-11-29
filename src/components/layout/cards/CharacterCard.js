@@ -5,7 +5,7 @@ import { LinkComponent } from '../navigation/LinkComponent';
 export const CharacterCard = ({ character, endpoint }) => {
   const { id, image, name, species, status, gender, origin, location } = character;
   return (
-       <div className='col-sm-6 col-md-4 col-lg-3 my-3 animate__animated animate__fadeIn' key = { id }>
+       <div className='col-sm-6 col-md-4 col-lg-3 my-3 animate__animated animate__fadeIn'>
             <div className="card text-center rounded-3">
                 <img 
                     src={ image } 
